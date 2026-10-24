@@ -9,7 +9,7 @@ const products = [
   { brand: 'Nike', model: 'Air Force 1 ’07', color: 'Blanco total', sizes: ['43', '45'], image: 'assets/nike-air-force-1-white.png' },
   { brand: 'New Balance', model: '1906R', color: 'Gris / lila', sizes: ['37'], image: 'assets/new-balance-1906r-lila.png' },
   { brand: 'Puma', model: 'Speedcat OG', color: 'Rojo / blanco', sizes: ['41'], image: 'assets/puma-speedcat-red.png' },
-  { brand: 'Nike', model: 'P-6000', color: 'Plateado metálico / sail / negro', sizes: ['39'], image: 'assets/nike-p6000-silver.png' },
+  { brand: 'Nike', model: 'P-6000', color: 'Blanco / gris', sizes: ['39'], image: 'assets/nike-p6000-blanco-gris.png' },
   { brand: 'Adidas', model: 'Campus 00s', color: 'Negro / blanco', sizes: ['42', '43'], image: 'assets/adidas-campus-00s-black.png' }
 ];
 
