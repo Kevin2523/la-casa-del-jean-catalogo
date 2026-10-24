@@ -7,7 +7,10 @@ const products = [
   { brand: 'Puma', model: 'Suede XL', color: 'Negro / blanco', image: 'assets/puma-suede-xl.png' },
   { brand: 'Nike', model: 'V5 RNR', color: 'Blanco / chocolate', image: 'assets/nike-v5-rnr-chocolate.png' },
   { brand: 'Nike', model: 'V5 RNR', color: 'Blanco / plateado / negro', image: 'assets/nike-v5-rnr-black.png' },
-  { brand: 'Nike', model: 'Air Force 1 ’07', color: 'Blanco total', image: 'assets/nike-air-force-1-white.png' }
+  { brand: 'Nike', model: 'Air Force 1 ’07', color: 'Blanco total', image: 'assets/nike-air-force-1-white.png' },
+  { brand: 'New Balance', model: '9060', color: 'Sea Salt / Castlerock', image: 'assets/new-balance-9060-sea-salt.png' },
+  { brand: 'Puma', model: 'Suede Classic', color: 'Rojo / blanco', image: 'assets/puma-suede-classic-red.png' },
+  { brand: 'Nike', model: 'P-6000', color: 'Plateado metálico / sail / negro', image: 'assets/nike-p6000-silver.png' }
 ];
 
 const grid = document.querySelector('#product-grid');
