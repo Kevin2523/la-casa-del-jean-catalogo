@@ -7,7 +7,7 @@ const products = [
   { brand: 'Puma', model: 'Suede XL', color: 'Negro / blanco', sizes: ['37', '38', '39', '40'], image: 'assets/puma-suede-xl.png' },
   { brand: 'Nike', model: 'V5 RNR', color: 'Blanco / chocolate', sizes: ['37', '40', '43'], image: 'assets/nike-v5-rnr-chocolate.png' },
   { brand: 'Nike', model: 'Air Force 1 ’07', color: 'Blanco total', sizes: ['43', '45'], image: 'assets/nike-air-force-1-white.png' },
-  { brand: 'New Balance', model: '1906R', color: 'Gris / lila', sizes: ['37'], image: 'assets/new-balance-1906r-grey-lilac.png' },
+  { brand: 'New Balance', model: '1906R', color: 'Gris / lila', sizes: ['37'], image: 'assets/new-balance-1906r-lila.png' },
   { brand: 'Puma', model: 'Speedcat OG', color: 'Rojo / blanco', sizes: ['41'], image: 'assets/puma-speedcat-red.png' },
   { brand: 'Nike', model: 'P-6000', color: 'Plateado metálico / sail / negro', sizes: ['39'], image: 'assets/nike-p6000-silver.png' },
   { brand: 'Adidas', model: 'Campus 00s', color: 'Negro / blanco', sizes: ['42', '43'], image: 'assets/adidas-campus-00s-black.png' }
@@ -30,7 +30,7 @@ function render(brand = 'Todas') {
     card.querySelector('.model').textContent = product.color;
     card.querySelector('h3').textContent = product.model;
     card.querySelector('.sizes').textContent = `Tallas: ${product.sizes.join(' · ')}${product.note ? ` · ${product.note}` : ''}`;
-    const text = `Hola, me interesa la ${product.brand} ${product.model} (${product.color}). ¿Tienen disponible la talla?`;
+    const text = `Hola, quiero apartar la ${product.brand} ${product.model} (${product.color}). ¿Cómo hago?`;
     card.querySelector('.inquire').href = `https://wa.me/50765412909?text=${encodeURIComponent(text)}`;
     grid.appendChild(card);
   });
