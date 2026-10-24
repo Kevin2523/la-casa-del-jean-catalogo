@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Catálogo de zapatillas disponibles en La Casa del Jean, San Carlos, Panamá.">
+  <title>La Casa del Jean | Catálogo de zapatillas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="La Casa del Jean, inicio">
+      <span class="brand-mark">LCJ</span><span>LA CASA<br>DEL JEAN</span>
+    </a>
+    <a class="header-cta" href="https://wa.me/50765412909?text=Hola%2C%20quiero%20consultar%20por%20las%20zapatillas." target="_blank" rel="noopener">Escríbenos</a>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <p class="eyebrow">San Carlos, Panamá · Catálogo 2026</p>
+      <h1>Tu próximo par<br><em>está aquí.</em></h1>
+      <p class="hero-copy">Zapatillas seleccionadas de Nike, Jordan, Adidas y New Balance. Elige tu modelo y consulta la talla disponible por WhatsApp.</p>
+      <a class="button button-dark" href="#catalogo">Ver catálogo <span>↓</span></a>
+      <div class="hero-note"><span></span> Stock actualizado en tienda</div>
+    </section>
+
+    <section class="catalog-section" id="catalogo">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Disponible ahora</p>
+          <h2>Catálogo de zapatillas</h2>
+        </div>
+        <p class="product-count" id="product-count"></p>
+      </div>
+      <div class="filters" aria-label="Filtrar por marca">
+        <button class="filter is-active" data-brand="Todas">Todas</button>
+        <button class="filter" data-brand="Nike">Nike</button>
+        <button class="filter" data-brand="Jordan">Jordan</button>
+        <button class="filter" data-brand="Adidas">Adidas</button>
+        <button class="filter" data-brand="New Balance">New Balance</button>
+      </div>
+      <div class="product-grid" id="product-grid"></div>
+    </section>
+
+    <section class="whatsapp-band">
+      <p class="eyebrow">¿No encuentras tu talla?</p>
+      <h2>Pregúntanos. Te ayudamos a conseguirla.</h2>
+      <a class="button button-light" href="https://wa.me/50765412909?text=Hola%2C%20busco%20una%20zapatilla%20y%20quiero%20consultar%20disponibilidad." target="_blank" rel="noopener">Consultar por WhatsApp <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand brand-footer" href="#inicio"><span class="brand-mark">LCJ</span><span>LA CASA<br>DEL JEAN</span></a>
+    <p>Tus ideas se hacen realidad.</p>
+    <a href="https://wa.me/50765412909" target="_blank" rel="noopener">+507 6541-2909</a>
+  </footer>
+
+  <template id="product-template">
+    <article class="product-card">
+      <div class="image-wrap"><img loading="lazy" alt=""><span class="brand-label"></span></div>
+      <div class="product-info">
+        <div><p class="model"></p><h3></h3></div>
+        <p class="sizes"></p>
+        <a class="inquire" target="_blank" rel="noopener">Consultar talla <span>↗</span></a>
+      </div>
+    </article>
+  </template>
+  <script src="app.js"></script>
+</body>
+</html>
