@@ -1,12 +1,13 @@
 const products = [
-  { brand: 'Adidas', model: 'Samba OG', color: 'Blanco / negro', image: 'assets/adidas-samba-white.png' },
+  { brand: 'Adidas', model: 'Samba OG', color: 'Blanco / negro', image: 'assets/adidas-samba-white-hq.png' },
   { brand: 'Jordan', model: 'Air Jordan 4 Retro Black Cat', color: 'Negro total', image: 'assets/air-jordan-4-black-cat.png' },
   { brand: 'Nike', model: 'P-6000', color: 'Plateado / rosado', image: 'assets/nike-p6000-rosado.png' },
   { brand: 'New Balance', model: '530', color: 'Blanco / negro', image: 'assets/new-balance-530.png' },
   { brand: 'Nike', model: 'Free Metcon', color: 'Negro / blanco', image: 'assets/nike-free.png' },
   { brand: 'Puma', model: 'Suede XL', color: 'Negro / blanco', image: 'assets/puma-suede-xl.png' },
-  { brand: 'Nike', model: 'V5 RNR', color: 'Blanco / plateado / dorado', image: 'assets/nike-v5-rnr-gold.png' },
-  { brand: 'Nike', model: 'V5 RNR', color: 'Blanco / plateado / negro', image: 'assets/nike-v5-rnr-black.png' }
+  { brand: 'Nike', model: 'V5 RNR', color: 'Blanco / chocolate', image: 'assets/nike-v5-rnr-chocolate.png' },
+  { brand: 'Nike', model: 'V5 RNR', color: 'Blanco / plateado / negro', image: 'assets/nike-v5-rnr-black.png' },
+  { brand: 'Nike', model: 'Air Force 1 ’07', color: 'Blanco total', image: 'assets/nike-air-force-1-white.png' }
 ];
 
 const grid = document.querySelector('#product-grid');
